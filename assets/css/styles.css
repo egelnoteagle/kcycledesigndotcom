@@ -88,6 +88,7 @@ header {
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
   color: #fff;
+  z-index: 2;
 }
 
 @keyframes fadein {
