@@ -31,7 +31,7 @@ a.btn {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  background-color: #44D62C;
+  background-color: #44d62c;
   opacity: 1;
 }
 
@@ -62,7 +62,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #44D62C;
+  background-color: #44d62c;
   border: 0;
   margin-bottom: 50px;
 }
@@ -145,7 +145,7 @@ header nav li {
   height: 100%;
   background-size: cover;
   z-index: -1;
-  background-color: #A2AAAD;
+  background-color: #a2aaad;
 }
 
 .hero h1 {
@@ -234,7 +234,7 @@ header nav li {
 }
 
 .packages .grid li i {
-  color: #44D62C;
+  color: #44d62c;
 }
 
 .packages .grid li h4 {
@@ -304,7 +304,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #A2AAAD;
+  background-color: #a2aaad;
   color: #fff;
   padding: 20px 0;
 }
