@@ -143,7 +143,7 @@ header a.btn {
 .hero {
   position: relative;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   min-height: 100vh;
   color: #fff;
 }
@@ -157,16 +157,16 @@ header a.btn {
   background-size: cover;
   z-index: -1;
   background-color: #a2aaad;
+  
 }
 
 .hero h1 {
-  font: bold 60px "Open Sans", sans-serif;
+  font: bold 70px "Quicksand", sans-serif;
+  padding-top: 500px;
   margin-bottom: 15px;
-}
-
-.hero h3 {
-  font: normal 28px "Open Sans", sans-serif;
-  margin-bottom: 40px;
+  text-shadow: black 0px 0px 20px;
+  text-transform: uppercase;
+  color: #44d62c;
 }
 
 .hero a.btn {
