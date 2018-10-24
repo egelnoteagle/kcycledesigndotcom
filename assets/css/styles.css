@@ -214,6 +214,10 @@ a.navbar-brand {
       flex-basis: 70%;
 }
 
+.bikes img {
+  padding-bottom: 65px;
+}
+
 @media (max-width: 1100px) {
   .bikes .grid li.small,
   .bikes .grid li.large {
@@ -255,6 +259,7 @@ a.navbar-brand {
     padding: 20px;
   }
 }
+
 
 /* Testimonials Section */
 
