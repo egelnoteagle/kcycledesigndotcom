@@ -31,7 +31,7 @@ a.btn {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  background-color: #44d62c;
+  background-color: #00FF01;
   opacity: 1;
 }
 
@@ -74,7 +74,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #44d62c;
+  background-color: #00FF01;
   border: 0;
   margin-bottom: 50px;
 }
@@ -105,18 +105,18 @@ a.navbar-brand {
 }
 
 #nav1 a:hover {
-  color: #44d62c;
+  color: #00FF01;
 }
 
 .btn-outline-success {
-  color: #44d62c;
-  border-color: #44d62c;
+  color: #00FF01;
+  border-color: #00FF01;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  border-color: #44d62c;
-  background-color: #44d62c;
+  border-color: #00FF01;
+  background-color: #00FF01;
 }
 
 /* Hero Styles */
@@ -148,7 +148,7 @@ a.navbar-brand {
   margin-bottom: 15px;
   text-shadow: black 0px 0px 20px;
   text-transform: uppercase;
-  color: #44d62c;
+  color: #00FF01;
 }
 
 .hero a.btn {
@@ -240,7 +240,7 @@ a.navbar-brand {
 }
 
 .services .grid li i {
-  color: #44d62c;
+  color: #00FF01;
 }
 
 .services .grid li h4 {
@@ -379,7 +379,7 @@ footer a:hover {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  background-color: #44d62c;
+  background-color: #00FF01;
   opacity: 1;
 }
 
