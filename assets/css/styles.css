@@ -358,6 +358,10 @@ footer p {
   align-self: center;
 }
 
+footer a:hover {
+  color: #44d62c;
+}
+
 @media (max-width: 1100px) {
   footer {
     -webkit-box-orient: vertical;
