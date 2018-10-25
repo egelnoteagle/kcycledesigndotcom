@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -41,11 +41,11 @@ section {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 100px 80px;
 }
 
@@ -65,10 +65,10 @@ section:not(.hero):nth-child(even) {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 hr {
@@ -124,8 +124,8 @@ a.navbar-brand {
 .hero {
   position: relative;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: left;
   min-height: 100vh;
   color: #fff;
@@ -159,7 +159,7 @@ a.navbar-brand {
   opacity: 0;
   margin-top: 100px;
   -webkit-animation: 1s slidefade 1s forwards;
-          animation: 1s slidefade 1s forwards;
+  animation: 1s slidefade 1s forwards;
 }
 
 @-webkit-keyframes slidefade {
@@ -206,23 +206,19 @@ a.navbar-brand {
 
 .bikes .grid li.small {
   -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  flex-basis: 30%;
 }
 
 .bikes .grid li.large {
   -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
-}
-
-.bikes img {
-  padding-bottom: 65px;
+  flex-basis: 70%;
 }
 
 @media (max-width: 1100px) {
   .bikes .grid li.small,
   .bikes .grid li.large {
     -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    flex-basis: 50%;
   }
 }
 
@@ -230,7 +226,7 @@ a.navbar-brand {
   .bikes .grid li.small,
   .bikes .grid li.large {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
   }
 }
 
@@ -239,7 +235,7 @@ a.navbar-brand {
 .services .grid li {
   padding: 50px;
   -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  flex-basis: 50%;
   text-align: center;
 }
 
@@ -255,11 +251,10 @@ a.navbar-brand {
 @media (max-width: 800px) {
   .services .grid li {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     padding: 20px;
   }
 }
-
 
 /* Testimonials Section */
 
@@ -288,13 +283,13 @@ a.navbar-brand {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 60%;
 }
 
@@ -308,14 +303,14 @@ a.navbar-brand {
   font-size: 18px;
   color: #555;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 @media (max-width: 1000px) {
   .contact form input {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
     margin: 0 0 20px 0;
   }
 }
@@ -327,10 +322,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   background-color: #a2aaad;
   color: #fff;
   padding: 20px 0;
@@ -351,16 +346,16 @@ footer p {
   font-size: 14px;
   opacity: 0.6;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 @media (max-width: 1100px) {
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   footer p {
