@@ -278,6 +278,26 @@ a.navbar-brand {
 
 /* Owners Section */
 
+.owners .grid li {
+  padding: 50px;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.owners .grid li h4 {
+  font-size: 30px;
+  margin: 25px 0;
+}
+
+@media (max-width: 800px) {
+  .owners .grid li {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    padding: 20px;
+  }
+}
+
 .headshot {
     border-radius: 50%;
     height: 200px;
