@@ -375,12 +375,7 @@ footer p {
 }
 
 footer a:hover {
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-  background-color: #00FF01;
-  opacity: 1;
+  color: #00FF01;
 }
 
 @media (max-width: 1100px) {
