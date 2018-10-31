@@ -30,12 +30,12 @@ section {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  }
+}
 
-  hr {
+hr {
   width: 250px;
   height: 3px;
-  background-color: #00FF01;
+  background-color: #00ff01;
   border: 0;
   margin-bottom: 50px;
 }
@@ -51,18 +51,18 @@ a.navbar-brand {
 }
 
 #nav1 a:hover {
-  color: #00FF01;
+  color: #00ff01;
 }
 
 .btn-outline-success {
-  color: #00FF01;
-  border-color: #00FF01;
+  color: #00ff01;
+  border-color: #00ff01;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  border-color: #00FF01;
-  background-color: #00FF01;
+  border-color: #00ff01;
+  background-color: #00ff01;
 }
 
 /* About Us Page */
@@ -92,8 +92,8 @@ a.navbar-brand {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100vh;
@@ -107,11 +107,11 @@ a.navbar-brand {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /* Footer Section */
@@ -150,7 +150,7 @@ footer p {
 }
 
 footer a:hover {
-  color: #00FF01;
+  color: #00ff01;
 }
 
 @media (max-width: 1100px) {

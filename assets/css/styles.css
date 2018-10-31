@@ -31,7 +31,7 @@ a.btn {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  background-color: #00FF01;
+  background-color: #00ff01;
   opacity: 1;
 }
 
@@ -74,7 +74,7 @@ section:not(.hero):nth-child(even) {
 hr {
   width: 250px;
   height: 3px;
-  background-color: #00FF01;
+  background-color: #00ff01;
   border: 0;
   margin-bottom: 50px;
 }
@@ -105,18 +105,18 @@ a.navbar-brand {
 }
 
 #nav1 a:hover {
-  color: #00FF01;
+  color: #00ff01;
 }
 
 .btn-outline-success {
-  color: #00FF01;
-  border-color: #00FF01;
+  color: #00ff01;
+  border-color: #00ff01;
 }
 
 .btn-outline-success:hover {
   color: #fff;
-  border-color: #00FF01;
-  background-color: #00FF01;
+  border-color: #00ff01;
+  background-color: #00ff01;
 }
 
 /* Hero Styles */
@@ -148,7 +148,7 @@ a.navbar-brand {
   margin-bottom: 15px;
   text-shadow: black 0px 0px 20px;
   text-transform: uppercase;
-  color: #00FF01;
+  color: #00ff01;
 }
 
 .hero a.btn {
@@ -240,7 +240,7 @@ a.navbar-brand {
 }
 
 .services .grid li i {
-  color: #00FF01;
+  color: #00ff01;
 }
 
 .services .grid li h4 {
@@ -299,9 +299,9 @@ a.navbar-brand {
 }
 
 .headshot {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
 }
 
 /* Contact Section */
@@ -375,7 +375,7 @@ footer p {
 }
 
 footer a:hover {
-  color: #00FF01;
+  color: #00ff01;
 }
 
 @media (max-width: 1100px) {
