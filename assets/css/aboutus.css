@@ -24,10 +24,14 @@ section {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 100px 80px;
+  }
+
+  hr {
+  width: 250px;
+  height: 3px;
+  background-color: #00FF01;
+  border: 0;
+  margin-bottom: 50px;
 }
 
 /* Nav Styles */
@@ -59,9 +63,6 @@ a.navbar-brand {
 
 .aboutus {
   position: relative;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   text-align: left;
   min-height: 100vh;
   color: #fff;
@@ -76,6 +77,23 @@ a.navbar-brand {
   background-size: cover;
   z-index: -1;
   background-color: #a2aaad;
+}
+
+.aboutus .about-us-content {
+  font: 16px "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 100vh;
+  margin: 50px;
+}
+
+.aboutus .about-us-content .slogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Footer Section */
