@@ -12,6 +12,12 @@ html {
   color: #555;
 }
 
+a {
+  text-decoration: none;
+  opacity: 0.75;
+  color: #fff;
+}
+
 ul {
   list-style: none;
 }
