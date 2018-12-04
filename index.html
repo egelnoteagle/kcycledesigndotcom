@@ -1,196 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-128514970-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128514970-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-128514970-1");
+    </script>
 
-    gtag('config', 'UA-128514970-1');
-  </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kcycle Design</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Kcycle Design</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/styles.css">
-</head>
+  <body>
+    <nav
+      class="navbar navbar-fixed-top navbar-dark bg-dark navbar-expand-md navbar-template"
+      id="nav1"
+    >
+      <a href="index.html" class="navbar-brand"
+        ><img src="assets/img/nav_k.svg" alt="" height="70px" />Kcycle Design</a
+      >
+      <div class="d-flex flex-row order-2 order-sm-3">
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item">
+            <a
+              href="https://www.facebook.com/kcycledesign"
+              target="_blank"
+              class="nav-link px-2"
+              ><i class="fab fa-facebook-square fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.twitter.com/kcycledesign"
+              target="_blank"
+              class="nav-link px-2"
+              ><i class="fab fa-twitter-square fa-2x"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.instagram.com/kcycle_design"
+              target="_blank"
+              class="nav-link px-2"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+          </li>
+        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="collapse navbar-collapse order-3 order-sm-2"
+        id="navbarNavDropdown"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#designs" class="nav-link">Designs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonial" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutus.html" class="nav-link">About Us</a>
+          </li>
+          <a href="#contact"
+            ><button type="button" class="btn btn-outline-success">
+              Contact Us
+            </button></a
+          >
+        </ul>
+      </div>
+    </nav>
 
-<body>
-  <nav class="navbar navbar-fixed-top navbar-dark bg-dark navbar-expand-md navbar-template" id="nav1">
-    <a href="index.html" class="navbar-brand"><img src="assets/img/nav_k.svg" alt="" height="70px">Kcycle Design</a>
-    <div class="d-flex flex-row order-2 order-sm-3">
-      <ul class="navbar-nav flex-row">
-        <li class="nav-item"><a href="https://www.facebook.com/kcycledesign" target="_blank" class="nav-link px-2"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-        <li class="nav-item"><a href="https://www.twitter.com/kcycledesign" target="_blank" class="nav-link px-2"><i class="fab fa-twitter-square fa-2x"></i></a></li>
-        <li class="nav-item"><a href="https://www.instagram.com/kcycle_design" target="_blank" class="nav-link px-2"><i class="fab fa-instagram fa-2x"></i></a></li>
+    <section class="hero">
+      <div
+        class="background-image"
+        style="background-image: url(assets/img/mainhero.jpg);"
+      ></div>
+      <div class="hero-content-area">
+        <h1>Customized Painting For High Performance Bikes</h1>
+      </div>
+    </section>
+
+    <section class="bikes" id="designs">
+      <div class="slogo">
+        <img
+          id="logo"
+          src="assets/img/KCycle_Oval_250x100.svg"
+          alt=""
+          height="150px"
+        />
+        <p><em>"Better and Better"</em></p>
+      </div>
+      <h3 class="title">Custom Paint Designs</h3>
+      <p>High-end customized road/triathlon bike designs by Mike Furtek</p>
+      <hr />
+
+      <ul class="grid">
+        <li
+          class="small"
+          style="background-image: url(assets/img/gallery1.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/gallery2.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/gallery3.jpg);"
+        ></li>
+        <li
+          class="small"
+          style="background-image: url(assets/img/gallery5.jpg);"
+        ></li>
+        <li
+          class="small"
+          style="background-image: url(assets/img/gallery6.jpg);"
+        ></li>
+        <li
+          class="large"
+          style="background-image: url(assets/img/gallery4.jpg);"
+        ></li>
       </ul>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse order-3 order-sm-2" id="navbarNavDropdown">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="#designs" class="nav-link">Designs</a></li>
-        <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-        <li class="nav-item"><a href="#testimonial" class="nav-link">Testimonials</a></li>
-        <li class="nav-item"><a href="aboutus.html" class="nav-link">About Us</a></li>
-        <a href="#contact"><button type="button" class="btn btn-outline-success">Contact Us</button></a>
+    </section>
+
+    <section class="contact" id="contact">
+      <h3 class="title">Contact Us!</h3>
+      <p>
+        Submit your name and email address and we will be in contact to help
+        start your customization needs.
+      </p>
+      <hr />
+      <form method="POST" action="https://formspree.io/kcycledesign@gmail.com">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="email" name="email" placeholder="Your Email" />
+        <button type="submit" class="btn btn-outline-success btn-lg">
+          Send
+        </button>
+      </form>
+    </section>
+
+    <section class="services" id="services">
+      <h3 class="title">Services</h3>
+      <p>
+        Allow us to create and coordinate with you art and color combinations
+        that personalizes your bike and gear. Matte or Gloss finishes are
+        offered. Simple or complex, your bike is treated with the finest of
+        material and product lines. Meticulous finishing for a stand-out bike
+        you deserve. The precision and detail of our graphics and artwork is
+        second to none.
+      </p>
+      <hr />
+
+      <ul class="grid">
+        <li>
+          <i class="fa fa-bicycle fa-4x"></i>
+          <h4>Bikes</h4>
+          <p>
+            Including frames, forks, handle bars, seat posts and project team
+            bikes.
+          </p>
+        </li>
+
+        <li>
+          <i class="fab fa-galactic-republic fa-4x"></i>
+          <h4>Wheels</h4>
+          <p>
+            Carbon disc and Aerodynamic wheels can be painted to coordinate with
+            bike/apparel.
+          </p>
+        </li>
+        <li>
+          <i
+            ><img src="assets/img/helmet.svg" width="56px" height="56px" alt=""
+          /></i>
+          <h4>Helmets</h4>
+          <p>
+            Triathlon/road helmets painted to coordinate with team kits, apparel
+            and/or your bike. Why not personalize your head protection!
+          </p>
+        </li>
       </ul>
-    </div>
-  </nav>
+    </section>
 
-  <section class="hero">
-    <div class="background-image" style="background-image: url(assets/img/mainhero.jpg);"></div>
-    <div class="hero-content-area">
-      <h1>Customized Painting For High Performance Bikes</h1>
-    </div>
-  </section>
+    <section class="testimonials" id="testimonial">
+      <h3 class="title">Client Testimonials</h3>
+      <hr />
+      <p class="quote">
+        "I absolutely LOVE my new paint scheme that Mike came up with for my
+        Ventum. I didn’t give him much to go on other than I wanted blue with
+        orange accents. I also told him I didn’t want to be “flashy” but cool
+        and settle! That is exactly what I got. I was sitting on pins and
+        needles waiting to see the final product and I couldn’t be happier. Mike
+        is a true artist and did an exceptional job on my bike. Kathy was so
+        easy to work with to coordinate all the behind the scenes action!!"
+      </p>
+      <p class="author">- Jane Green</p>
+      <hr />
+      <p class="quote">
+        "It was a pleasure to work with Mike and let his skills shine on my new
+        Ventum bike. Mike is a true artist and not just a bike painter. It was a
+        truly unique experience. We talked and he asked me questions and then he
+        came up with a design which evolved as he went on and the end result was
+        unique. There were so many details on the bike that I didn't even know
+        were possible. To make my bike a complete project, Mike painted my disc
+        wheel as well as my helmet to match my bike. Thank you Mike for this
+        outstanding and unique paint job."
+      </p>
+      <p class="author">- Karel Sumbal</p>
+      <hr />
+      <p class="quote">
+        "I worked with Mike from M.D. Customs for several years when I owned
+        Speed Limit Cycle. He did well over 2000 custom paint jobs that were
+        outstanding. What's great is he can repair what he paints. People lay
+        down their bikes all the time and the insurance work on the repairs give
+        us business all year long. He's a very creative, talented and reliable
+        painter to have."
+      </p>
+      <p class="author">- Marty Pavolonis</p>
+      <hr />
+      <p class="quote">
+        "Mike Furtek has worked both for and with me at the three Harley
+        Davidson dealerships I now own for much of the last 20 years. His
+        creative approach and quality of work stands above the rest. I have
+        handed my own personal projects to Mike and was very happy with the
+        results. Turn around time is efficient and he works well with customers.
+        I would recommend anyone interested in a custom paint job to highly
+        consider Mike. Give him a call, you won’t be disappointed."
+      </p>
+      <p class="author">- George Tragos</p>
+    </section>
 
-  <section class="bikes" id="designs">
-    <div class="slogo">
-      <img id="logo" src="assets/img/KCycle_Oval_250x100.svg" alt="" height="150px">
-      <p><em>"Better and Better"</em></p>
-    </div>
-    <h3 class="title">Custom Paint Designs</h3>
-    <p>High-end customized road/triathlon bike designs by Mike Furtek</p>
-    <hr>
+    <section class="owners" id="owners">
+      <h3 class="title">Meet the Owners</h3>
+      <p>Meet the team who will help you realize your customization dreams</p>
+      <hr />
 
-    <ul class="grid">
-      <li class="small" style="background-image: url(assets/img/gallery1.jpg);"></li>
-      <li class="large" style="background-image: url(assets/img/gallery2.jpg);"></li>
-      <li class="large" style="background-image: url(assets/img/gallery3.jpg);"></li>
-      <li class="small" style="background-image: url(assets/img/gallery5.jpg);"></li>
-      <li class="small" style="background-image: url(assets/img/gallery6.jpg);"></li>
-      <li class="large" style="background-image: url(assets/img/gallery4.jpg);"></li>
-    </ul>
-  </section>
+      <ul class="grid">
+        <li>
+          <img src="assets/img/mike.jpeg" alt="" class="headshot" />
+          <h4>Mike Furtek</h4>
+          <p>
+            Mike began building his custom painting skills in 1975. He has
+            created designs for Harley Davidson Motorcycle Company as well as
+            custom painting sport bikes for Speed Limit motorcycles. Mike’s
+            designs and customizations have been sought after by dozens of
+            Harley dealers from the Midwest, entertainers, athletes, movie stars
+            and guys and gals just like you and me.
+          </p>
+        </li>
+        <li>
+          <img src="assets/img/kathy.jpg" alt="" class="headshot" />
+          <h4>Kathy Petri</h4>
+          <p>
+            Kathy first began competing in triathlons in 2010 and qualified to
+            compete in 70.3 Worlds the same year. She was a member of Team USA
+            for two years and competed in her first Ironman in 2012. Continuing
+            to podium finishes each year thereafter, Kathy began 2018 as an
+            All-American Athlete Silver Status athlete reaching the top 5% in
+            her age group.  Kathy is currently a member of Trimarni Coaching and
+            Nutrition and is looking forward to 2019 racing while promoting
+            Kcycle Design and customizing high-end road/triathlon bikes.
+          </p>
+        </li>
+      </ul>
+    </section>
 
-  <section class="contact" id="contact">
-    <h3 class="title">Contact Us!</h3>
-    <p>Submit your name and email address and we will be in contact to help start your customization needs.</p>
-    <hr>
-    <form method="POST" action="https://formspree.io/kcycledesign@gmail.com">
-      <input type="text" name="name" placeholder="Name">
-      <input type="email" name="email" placeholder="Your Email">
-      <button type="submit" class="btn btn-outline-success btn-lg">Send</button>
-    </form>
-  </section>
+    <footer>
+      <p>Kcycle Design | East Peoria, IL | (682) 804-1077</p>
+      <p>
+        © 2018 Copyright:
+        <a href="www.derekegel.com" target="_blank">EgelNotEagle</a>
+      </p>
 
-  <section class="services" id="services">
-    <h3 class="title">Services</h3>
-    <p>Allow us to create and coordinate with you art and color combinations that personalizes your bike and gear. Matte or Gloss
-    finishes are offered. Simple or complex, your bike is treated with the finest of material and product lines. Meticulous finishing
-    for a stand-out bike you deserve. The precision and detail of our graphics and artwork is second to none.</p>
-    <hr>
-
-    <ul class="grid">
-      <li>
-        <i class="fa fa-bicycle fa-4x"></i>
-        <h4>Bikes</h4>
-        <p>Including frames, forks, handle bars, seat posts and project team bikes.</p>
-      </li>
-      
-      <li>
-        <i class="fab fa-galactic-republic fa-4x"></i>
-        <h4>Wheels</h4>
-        <p>Carbon disc and Aerodynamic wheels can be painted to coordinate with bike/apparel.</p>
-      </li>
-      <li>
-        <i><img src="assets/img/helmet.svg" width="56px" height="56px" alt=""></i>
-        <h4>Helmets</h4>
-        <p>Triathlon/road helmets painted to coordinate with team kits, apparel and/or your bike. Why not personalize your head protection!</p>
-      </li>
-    </ul>
-  </section>
-
-  <section class="testimonials" id="testimonial">
-    <h3 class="title">Client Testimonials</h3>
-    <hr>
-    <p class="quote">"It was a pleasure to work with Mike and let his skills shine on my new Ventum bike. Mike is a
-      true artist and not just
-      a bike painter. It was a truly unique experience. We talked and he asked me questions and then he came up with a
-      design
-      which evolved as he went on and the end result was unique. There were so many details on the bike that I didn't
-      even
-      know were possible. To make my bike a complete project, Mike painted my disc wheel as well as my helmet to match
-      my
-      bike. Thank you Mike for this outstanding and unique paint job."</p>
-    <p class="author">- Karel Sumbal</p>
-    <hr>
-    <p class="quote">"I worked with Mike from M.D. Customs for several years when I owned Speed Limit Cycle. He did
-      well over 2000 custom paint
-      jobs that were outstanding. What's great is he can repair what he paints. People lay down their bikes all the
-      time and
-      the insurance work on the repairs give us business all year long. He's a very creative, talented and reliable
-      painter to have."</p>
-    <p class="author">- Marty Pavolonis</p>
-    <hr>
-    <p class="quote">
-      "Mike Furtek has worked both for and with me at the three Harley Davidson dealerships I now own for much of the
-      last 20 years.
-      His creative approach and quality of work stands above the rest. I have handed my own personal projects to Mike
-      and was very
-      happy with the results. Turn around time is efficient and he works well with customers. I would recommend anyone
-      interested
-      in a custom paint job to highly consider Mike. Give him a call, you won’t be disappointed."
-    </p>
-    <p class="author">- George Tragos</p>
-  </section>
-
-  <section class="owners" id="owners">
-    <h3 class="title">Meet the Owners</h3>
-    <p>Meet the team who will help you realize your customization dreams</p>
-    <hr>
-
-    <ul class="grid">
-      <li>
-        <img src="assets/img/mike.jpeg" alt="" class="headshot">
-        <h4>Mike Furtek</h4>
-        <p>Mike began building his custom painting skills in 1975. He has created designs for Harley Davidson Motorcycle Company as
-        well as custom painting sport bikes for Speed Limit motorcycles. Mike’s designs and customizations have been sought after
-        by dozens of Harley dealers from the Midwest, entertainers, athletes, movie stars and guys and gals just like you and me.</p>
-      </li>
-      <li>
-        <img src="assets/img/kathy.jpg" alt="" class="headshot">
-        <h4>Kathy Petri</h4>
-        <p>Kathy first began competing in triathlons in 2010 and qualified to compete in 70.3 Worlds the same year. She was a member
-        of Team USA for two years and competed in her first Ironman in 2012. Continuing to podium finishes each year thereafter,
-        Kathy began 2018 as an All-American Athlete Silver Status athlete reaching the top 5% in her age group.  Kathy is currently
-        a member of Trimarni Coaching and Nutrition and is looking forward to 2019 racing while promoting Kcycle Design and customizing
-        high-end road/triathlon bikes.</p>
-      </li>
-    </ul>
-
-  </section>
-
-  <footer>
-    <p>Kcycle Design | East Peoria, IL | (682) 804-1077</p>
-    <p>© 2018 Copyright: <a href="www.derekegel.com" target="_blank" >EgelNotEagle</a></p>
-    
-    <ul>
-      <li><a href="https://twitter.com/kcycledesign" target="_blank" ><i class="fab fa-twitter-square fa-2x"></i></a></li>
-      <li><a href="https://www.facebook.com/kcycledesign" target="_blank" ><i class="fab fa-facebook-square fa-2x"></i></a></li>
-      <li><a href="https://www.instagram.com/kcycle_design/" target="_blank" ><i class="fab fa-instagram fa-2x"></i></a></li>
-    </ul>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
-
+      <ul>
+        <li>
+          <a href="https://twitter.com/kcycledesign" target="_blank"
+            ><i class="fab fa-twitter-square fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/kcycledesign" target="_blank"
+            ><i class="fab fa-facebook-square fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/kcycle_design/" target="_blank"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
